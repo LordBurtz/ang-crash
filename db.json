@@ -7,34 +7,10 @@
       "reminder": true
     },
     {
-      "id": 2,
-      "text": "Meeting at School",
-      "day": "May 6th at 1:30pm",
-      "reminder": true
-    },
-    {
       "id": 3,
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": true
-    },
-    {
-      "text": "brush teeth",
-      "day": "10th May 2018",
-      "reminder": true,
-      "id": 4
-    },
-    {
-      "text": "Stop the bri'ish",
-      "day": "10th May 2018",
-      "reminder": true,
-      "id": 5
-    },
-    {
-      "text": "eat breakfast",
-      "day": "10th May 2018 8pm",
-      "reminder": false,
-      "id": 6
     }
   ]
 }
