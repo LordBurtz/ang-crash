@@ -29,5 +29,8 @@ export class TasksComponent implements OnInit {
 
   addTask(task: Task) {
     this.taskservice.addTask(task).subscribe((tasks) => (this.tasks.push(task)))
+    this.tasks = [];
+    this.taskservice.getTasks().subscribe((tasks) => this.tasks = tasks)
+    console.log("tasks resetted")
   }
 }
