@@ -38,7 +38,7 @@ export class TasksComponent implements OnInit {
         console.log('Complete');
         this.updateTasks();
       })
-      this.updateTasks();
+      //this.updateTasks();
     }
 
     updateTasks() {
