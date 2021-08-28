@@ -7,28 +7,10 @@
       "reminder": true
     },
     {
-      "text": "test",
-      "day": "test24",
-      "reminder": false,
-      "id": 5
-    },
-    {
       "text": "Eat Breakfast",
       "day": "May 10th at 11:00am",
       "reminder": false,
       "id": 6
-    },
-    {
-      "text": "23",
-      "day": "23",
-      "reminder": false,
-      "id": 7
-    },
-    {
-      "text": "test2",
-      "day": "test5",
-      "reminder": false,
-      "id": 8
     }
   ]
 }
