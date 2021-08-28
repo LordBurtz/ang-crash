@@ -27,18 +27,17 @@ export class TasksComponent implements OnInit {
   }
 
     addTask(task: Task) {
-      this.taskservice.addTask(task).subscribe( 
-         error => {
+      this.taskservice.addTask(task).subscribe({
+         error: error => {
         console.log(error);
       },
-       response => {
+       next: response => {
         console.log(response);
       },
-       () => {
+       complete: () => {
         console.log('Complete');
-        this.updateTasks();
+        this.updateTasks();}
       })
-      //this.updateTasks();
     }
 
     updateTasks() {
